@@ -336,8 +336,6 @@ fileID = fopen('Case_5_60.idf','w');
 fprintf(fileID,'%s',text5);
 fclose(fileID);
 
-error('stop')
-
 figure
 contourf([1:20,20.1,22,23,24],1:365,LED_compansate_case_1/1000,(0:0.1:120),'edgecolor','none')
 cb1 = colorbar;
